@@ -416,6 +416,10 @@ align-items: center;
 	margin-right: 19rem;
 }
 
+.coffeeShop__list {
+	padding: 0;
+}
+
 .coffeeShop__list-item {
 	display: flex;
 	align-items: center;
