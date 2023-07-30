@@ -271,7 +271,6 @@ align-items: center;
   line-height: 4rem; /* 200% */
   letter-spacing: 0.2rem;
   text-transform: capitalize;
-  margin-bottom: 2rem;
 }
 
 .favorites__item-title:after {
