@@ -211,6 +211,7 @@ align-items: center;
 /************************** section favorites style start */
 .favorites {
 	padding: 2rem 0;
+	margin: 0;
 }
 
 .favorites__pick {
@@ -261,6 +262,7 @@ align-items: center;
 }
 
 .favorites__item-title {
+  position: relative;
   color: #000000;
   font-family: "Forum", sans-serif;
   font-size: 2rem;
@@ -269,7 +271,7 @@ align-items: center;
   line-height: 4rem; /* 200% */
   letter-spacing: 0.2rem;
   text-transform: capitalize;
-	margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .favorites__item-title:after {
@@ -278,12 +280,13 @@ align-items: center;
  width: 6rem;
  height: 0.1rem;
  background-color: #000000;
+ position: absolute;
+ bottom: -10px;
+ left: 0;
 }
 
 .favorites__item-text {
-	/* width: 100%;
-  max-width: 17rem; */
-	color: #000000;
+  color: #000000;
   font-family: Inter;
   font-size: 15px;
   font-style: normal;
@@ -291,10 +294,10 @@ align-items: center;
   line-height: 40px;
   letter-spacing: 2px;
   text-transform: capitalize;
-	margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 .favotites__item-span {
-	color: #000;
+  color: #000;
   font-family: Inter;
   font-size: 1.5rem;
   font-style: normal;
@@ -304,9 +307,9 @@ align-items: center;
   text-transform: uppercase;
 }
 .favorites__descr {
-	width: 100%;
-	max-width: 35.5rem;
-	color: #000;
+  width: 100%;
+  max-width: 35.5rem;
+  color: #000;
   font-family: Inter;
   font-size: 15px;
   font-style: normal;
@@ -322,31 +325,37 @@ align-items: center;
 	z-index: 2;
 }
 .favorites__btn {
-	position: absolute;
+  position: absolute;
   left: 2rem;
-	bottom: 1.5rem;
+  bottom: 1.5rem;
 
-	padding: 0.9rem 2.7rem;
-	color: #0C0C0E;
+  padding: 0.9rem 2.7rem;
+  color: #0C0C0E;
   text-align: center;
   font-family: Inter;
-	font-size: 1rem;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
   letter-spacing: 1px;
-	background-color: #ffffff;
-	border: 1px solid #000000;
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 2px;
 }
 
 .btn-buy {
   transition: background-color 0.3s linear;
-	transition: border 0.3s linear;
+  transition: border 0.3s linear;
 }
 
 .btn-buy:hover {
-	background-color: #BB945F;
-	border: 1px solid #BB945F;
+  background-color: #BB945F;
+  border: 1px solid #BB945F;
+}
+.btn-own {
+  border-radius: 2px;
+  border: 1px solid #BB945F;
+  color: #BB945F;
 }
 /************************** section favorites style end */
 
