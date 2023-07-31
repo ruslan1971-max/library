@@ -139,6 +139,7 @@ align-items: center;
 .welcome__title {
 	font-size: 4rem;
 	font-family: 'Forum', sans-serif;
+	font-weight: 400;
 	width: 100%;
 	max-width: 52rem;
 	padding: 3.5rem 4rem;
