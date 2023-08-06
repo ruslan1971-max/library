@@ -209,11 +209,11 @@ align-items: center;
 /************************** section favorites style start */
 .favorites {
   padding: 2rem 0;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .favorites__pick {
-	margin-bottom: 4rem;
+  margin-bottom: 4rem;
 }
 .favorites__form-descr {
   color: #000;
@@ -222,7 +222,7 @@ align-items: center;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-	margin-bottom: 4rem;
+  margin-bottom: 4rem;
 }
 
 
@@ -237,26 +237,26 @@ align-items: center;
 }
 
 .favorites__input {
-	width: 1.7rem;
+  width: 1.7rem;
   height: 1.7rem;
-	accent-color: #000000;
+  accent-color: #000000;
 }
 
 .favorites__inner {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 .favorites__item {
-	position: relative;
+  position: relative;
   width: 100%;
-	max-width: 55rem;
-	height: 55.5rem;
-	padding: 0 2rem;
-	border: 1px solid #000000;
+  max-width: 55rem;
+  height: 55.5rem;
+  padding: 0 2rem;
+  border: 1px solid #000000;
   background: #ffffff;
-	margin-bottom: 4rem;
+  margin-bottom: 4rem;
 }
 
 .favorites__item-title {
@@ -265,7 +265,6 @@ align-items: center;
   font-size: 2rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 4rem; /* 200% */
   letter-spacing: 0.2rem;
   text-transform: capitalize;
   position: relative;
@@ -283,9 +282,7 @@ align-items: center;
 }
 
 .favorites__item-text {
-	/* width: 100%;
-  max-width: 17rem; */
-	color: #000000;
+  color: #000000;
   font-family: Inter;
   font-size: 15px;
   font-style: normal;
@@ -293,7 +290,7 @@ align-items: center;
   line-height: 40px;
   letter-spacing: 2px;
   text-transform: capitalize;
-	margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 .favotites__item-span {
 	color: #000;
@@ -306,9 +303,9 @@ align-items: center;
   text-transform: uppercase;
 }
 .favorites__descr {
-	width: 100%;
-	max-width: 35.5rem;
-	color: #000;
+  width: 100%;
+  max-width: 35.5rem;
+  color: #000;
   font-family: Inter;
   font-size: 15px;
   font-style: normal;
@@ -318,16 +315,15 @@ align-items: center;
   text-transform: capitalize;
 }
 .favotites__image {
-	position: absolute;
-	right: -4rem;
-	bottom: -0.1rem;
-	z-index: 2;
+  position: absolute;
+  right: -4rem;
+  bottom: -0.1rem;
+  z-index: 2;
 }
 .favorites__btn {
   position: absolute;
   left: 2rem;
   bottom: 1.5rem;
-
   padding: 0.9rem 2.7rem;
   color: #0C0C0E;
   text-align: center;
@@ -344,13 +340,14 @@ align-items: center;
 
 .btn-buy {
   transition: background-color 0.3s linear;
-	transition: border 0.3s linear;
+  transition: border 0.3s linear;
 }
 
 .btn-buy:hover {
-	background-color: #BB945F;
-	border: 1px solid #BB945F;
+  background-color: #BB945F;
+  border: 1px solid #BB945F;
 }
+
 .btn-own {
   border-radius: 2px;
   border: 1px solid #BB945F;
