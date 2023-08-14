@@ -195,7 +195,7 @@ flex-wrap: wrap;
 			background-color: #0C0C0E;
 		}
 }
-@media (max-width: 640px) {
+@media (max-width: 768px) {
 
 	.header__burger {
 		display: block;
@@ -226,7 +226,7 @@ flex-wrap: wrap;
     width: 332px;
 		height: 570px;
     text-align: center;
-    transition: 0.3s;
+    transition: 1s;
 		z-index: 4;
   }
 
