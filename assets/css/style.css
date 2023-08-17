@@ -212,8 +212,8 @@ flex-wrap: wrap;
 		display: block;
 	}
 
-	.header__nav-list {
-    position: fixed;
+ .header__nav-list {
+    position: absolute;
     right: -100%;
     top: 70px;
     gap: 0;
